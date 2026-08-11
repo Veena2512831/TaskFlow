@@ -3,8 +3,7 @@ import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
-const API_URL = "https://taskflow-backend-zwks.onrender.com/api/tasks";
-
+const API_URL = "https://taskflow-backend-zwks.onrender.com/api/auth";
 const Login = () => {
   const navigate = useNavigate();
 
