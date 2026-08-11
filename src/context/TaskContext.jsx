@@ -9,8 +9,7 @@ import { useAuth } from "./AuthContext";
 
 const TaskContext = createContext();
 
-const API_URL = "http://localhost:5000/api/tasks";
-
+const API_URL = "https://taskflow-backend-zwks.onrender.com/api/tasks";
 export const TaskProvider = ({ children }) => {
   const [tasks, setTasks] = useState([]);
   const [loading, setLoading] = useState(false);
